@@ -9,7 +9,7 @@ pipeline {
 		}
 		stage('Test')	{
 			steps {
-				sh 'cd  main && ./brah'
+				sh 'cd  main && ./rah'
 				echo 'Test Stage Successful'
 			}
 		}
