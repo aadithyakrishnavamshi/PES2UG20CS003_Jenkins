@@ -3,8 +3,8 @@ pipeline {
 	stages {
 		stage('Build')	{
 			steps {
-				sh 'cd Dockerfile'
-				sh 'g++ new_hello.cpp -o execute'
+				sh 'cd main'
+				sh 'g++ hello.cpp -o execute'
 				echo 'Build Stage Successful'
 			}
 		}
